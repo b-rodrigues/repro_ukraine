@@ -151,6 +151,20 @@ renv2nix(
 - Many vignettes to get started! [See
   here](https://docs.ropensci.org/rix/articles/)
 
+## Super quickstart
+
+- Uninstall R and RStudio
+- Install Nix (on [win/linux](https://docs.ropensci.org/rix/articles/b1-setting-up-and-using-rix-on-linux-and-windows.html) or on [macOS](https://docs.ropensci.org/rix/articles/b2-setting-up-and-using-rix-on-macos.html))
+- Start a temporary Nix shell to bootstrap your environments:
+
+. . . 
+
+```bash
+nix-shell -p R rPackages.rix
+```
+
+- Source a `gen_env.R` script that generates a `default.nix` and build that!
+
 ## Demo
 
 - Basics: `scripts/nix_expressions/01_rix_intro/`
