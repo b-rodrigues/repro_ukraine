@@ -1,6 +1,7 @@
 .gitignore
 .quarto/project-cache/bf5b60f8e59b047f99413e09fb957aba
 .quarto/project-cache/f8f8947983eeef1bfc930e5f2e6f7ed6
+.quarto/xref/506d9899
 .quarto/xref/638d4066
 .quarto/xref/6baf6cfd
 .quarto/xref/6d914414
@@ -12,6 +13,7 @@
 .quarto/xref/c394ab5c
 .quarto/xref/cd89b092
 .quarto/xref/eb5d0786
+.quarto/xref/fa806445
 .targets-files
 .targets-runs/
 _targets/.gitignore
