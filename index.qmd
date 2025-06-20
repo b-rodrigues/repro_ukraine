@@ -318,15 +318,17 @@ nix-shell --expr "$(curl -sl https://raw.githubusercontent.com/ropensci/rix/main
 - Advantage: avoids using `reticulate`
 - Add a Python serialization function:
 
+. . .
+
 ```python
 def serialize_to_json(pl_df, path):
     with open(path, 'w') as f:
         f.write(pl_df.write_json())
 ```
 
-. . .
-
 - And on the R side:
+
+. . .
 
 ```r
 rxp_r(
