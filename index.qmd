@@ -49,6 +49,14 @@ The reproducibility puzzle with Nix
 
 ![](img/repro_puzzle_nix.png){fig-align="center"}
 
+## But why bother?
+
+- Easier to collaborate
+- Easier to reproduce
+- Easier to debug
+- Ultimately, peace of mind!
+- Also, see latest discussions around `{ggplot2}` 4.0.0
+
 # Part 1: Reproducible environments for data science with {rix}
 
 ## Available solutions for R (1/2)
