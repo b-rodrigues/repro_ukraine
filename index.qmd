@@ -170,9 +170,9 @@ nix-shell -p R rPackages.rix
 - Basics: `scripts/nix_expressions/01_rix_intro/`
 - renv2nix: `scripts/nix_expressions/02_renv2nix/`
 - Native Code/Positron on Windows: `scripts/nix_expressions/03_native_vscode_example/`
-- Nix and `{targets}`: `scripts/nix_expressions/04_nix_targets_pipeline`
+- Nix and `{targets}`: `scripts/nix_expressions/04_nix_targets_pipeline/`
 - Nix and Docker: `scripts/nix_expressions/05_docker/`
-- Nix and `{shiny}`: `scripts/nix_expressions/06_shiny`
+- Nix and `{shiny}`: `scripts/nix_expressions/06_shiny/`
 - GitHub Actions: [see
   here](https://github.com/b-rodrigues/rix_paper/tree/master)
 
